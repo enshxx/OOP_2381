@@ -1,0 +1,3 @@
+/Users/ilakuznecov/OOP_2381/CMakeFiles/game.out.dir
+/Users/ilakuznecov/OOP_2381/CMakeFiles/edit_cache.dir
+/Users/ilakuznecov/OOP_2381/CMakeFiles/rebuild_cache.dir
