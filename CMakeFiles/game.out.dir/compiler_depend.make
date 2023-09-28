@@ -3355,8 +3355,13 @@ CMakeFiles/game.out.dir/main.cpp.o: main.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   Direction.h \
+  Flask.h \
+  Inventory.h \
+  Item.h \
   MovementManager.h \
-  Player.h
+  Player.h \
+  PowerPotion.h \
+  TPScroll.h
 
 
 TPScroll.cpp:

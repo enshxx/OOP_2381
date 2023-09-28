@@ -8,14 +8,11 @@
 
 class Inventory
 {
-private:
-    Flask flask;
-    TPScroll tpscroll;
-    PowerPotion powerPotion;
-
+    
 public:
+    Flask* const flask;
+    TPScroll* const tpscroll;
+    PowerPotion*const  powerPotion;
     Inventory();
     void showInventory();
-    void useItem(std::string name, Player &player);
-    void addItem(std::string name);
 };

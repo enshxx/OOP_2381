@@ -1,4 +1,8 @@
 #pragma once
+#define MIN_HEALTH 0
+#define MIN_SCORE 0
+#define MIN_POWER 10
+#define MAX_HEALTH 1000
 #include <iostream>
 class Inventory;
 
@@ -6,18 +10,15 @@ class Player
 {
 private:
     int power, score, health;
-    std::pair <int,int> coordinates;
     bool dead;
 
 public:
     Inventory* const inv;
-    Player(int power = 10, int score = 0, int health = 100);
+    Player(int power = MIN_POWER, int score = MIN_SCORE, int health = MIN_HEALTH);
     void setHealth(int hp);
     void setScore(int newScore);
     void setPower(int newPower);
-    void setCoordinates(int x, int y);
     bool isDead();
-    std::pair<int, int> getCoordinates();
     int getHealth();
     int getScore();
     int getPower();
