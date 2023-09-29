@@ -14,7 +14,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ilakuznecov/OOP_2381/MovementManager.cpp" "CMakeFiles/game.out.dir/MovementManager.cpp.o" "gcc" "CMakeFiles/game.out.dir/MovementManager.cpp.o.d"
   "/Users/ilakuznecov/OOP_2381/Player.cpp" "CMakeFiles/game.out.dir/Player.cpp.o" "gcc" "CMakeFiles/game.out.dir/Player.cpp.o.d"
   "/Users/ilakuznecov/OOP_2381/PowerPotion.cpp" "CMakeFiles/game.out.dir/PowerPotion.cpp.o" "gcc" "CMakeFiles/game.out.dir/PowerPotion.cpp.o.d"
-  "/Users/ilakuznecov/OOP_2381/TPScroll.cpp" "CMakeFiles/game.out.dir/TPScroll.cpp.o" "gcc" "CMakeFiles/game.out.dir/TPScroll.cpp.o.d"
   "/Users/ilakuznecov/OOP_2381/main.cpp" "CMakeFiles/game.out.dir/main.cpp.o" "gcc" "CMakeFiles/game.out.dir/main.cpp.o.d"
   )
 

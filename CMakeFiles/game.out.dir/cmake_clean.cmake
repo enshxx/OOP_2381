@@ -11,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.out.dir/Player.cpp.o.d"
   "CMakeFiles/game.out.dir/PowerPotion.cpp.o"
   "CMakeFiles/game.out.dir/PowerPotion.cpp.o.d"
-  "CMakeFiles/game.out.dir/TPScroll.cpp.o"
-  "CMakeFiles/game.out.dir/TPScroll.cpp.o.d"
   "CMakeFiles/game.out.dir/main.cpp.o"
   "CMakeFiles/game.out.dir/main.cpp.o.d"
   "game.out"

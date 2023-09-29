@@ -16,20 +16,22 @@ void MovementManager::setCoordinates(int x, int y)
 
 void MovementManager::move(Direction direction)
 {
+    int new_x = this->coordinates.first, new_y = this->coordinates.second;
     switch ((direction))
     {
     case (Direction::right):
-        this->setCoordinates(this->getCoordinates().first + 1, this->getCoordinates().second);
+        new_x++;
         break;
     case (Direction::left):
-        this->setCoordinates(this->getCoordinates().first - 1, this->getCoordinates().second);
+        new_x--;
         break;
     case (Direction::up):
-        this->setCoordinates(this->getCoordinates().first, this->getCoordinates().second + 1);
+        new_y++;
         break;
     case (Direction::down):
-        this->setCoordinates(this->getCoordinates().first + 1, this->getCoordinates().second - 1);
+        new_y--;
         break;
     }
+    this->setCoordinates(new_x, new_y);
 }
 #endif

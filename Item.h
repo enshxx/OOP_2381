@@ -1,5 +1,6 @@
 #include <iostream>
-#pragma once
+#ifndef Item_h
+#define Item_h
 #define MIN_COUNT 0
 class Player;
 
@@ -17,3 +18,4 @@ public:
     int getCount();
     std::string getName();
 };
+#endif

@@ -273,30 +273,6 @@ PowerPotion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/PowerPotion.cpp.s
 .PHONY : PowerPotion.cpp.s
 
-TPScroll.o: TPScroll.cpp.o
-.PHONY : TPScroll.o
-
-# target to build an object file
-TPScroll.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/TPScroll.cpp.o
-.PHONY : TPScroll.cpp.o
-
-TPScroll.i: TPScroll.cpp.i
-.PHONY : TPScroll.i
-
-# target to preprocess a source file
-TPScroll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/TPScroll.cpp.i
-.PHONY : TPScroll.cpp.i
-
-TPScroll.s: TPScroll.cpp.s
-.PHONY : TPScroll.s
-
-# target to generate assembly for a file
-TPScroll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/TPScroll.cpp.s
-.PHONY : TPScroll.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -348,9 +324,6 @@ help:
 	@echo "... PowerPotion.o"
 	@echo "... PowerPotion.i"
 	@echo "... PowerPotion.s"
-	@echo "... TPScroll.o"
-	@echo "... TPScroll.i"
-	@echo "... TPScroll.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -33,7 +33,6 @@ int main()
 
     // изменение количества предметов
     player.inv->flask->setCount(player.inv->flask->getCount() + 1);
-    player.inv->tpscroll->setCount(player.inv->tpscroll->getCount() + 1);
     player.inv->powerPotion->setCount(player.inv->powerPotion->getCount() + 1);
 
     // проверка количества предметов после изменения

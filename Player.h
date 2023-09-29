@@ -1,9 +1,11 @@
-#pragma once
+#ifndef Player_h
+#define Player_h
+#include <iostream>
 #define MIN_HEALTH 0
 #define MIN_SCORE 0
 #define MIN_POWER 10
 #define MAX_HEALTH 1000
-#include <iostream>
+
 class Inventory;
 
 class Player
@@ -23,3 +25,4 @@ public:
     int getScore();
     int getPower();
 };
+#endif

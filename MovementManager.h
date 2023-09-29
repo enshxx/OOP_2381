@@ -1,4 +1,5 @@
-#pragma once
+#ifndef MovementManager_h
+#define MovementManager_h
 #include "Direction.h"
 #include <iostream>
 class Player;
@@ -14,3 +15,4 @@ class MovementManager{
         std::pair<int,int> getCoordinates();
         
 };
+#endif

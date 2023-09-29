@@ -417,5 +417,4 @@ CMakeFiles/game.out.dir/Player.cpp.o: \
   /Users/ilakuznecov/OOP_2381/Player.h \
   /Users/ilakuznecov/OOP_2381/Inventory.h \
   /Users/ilakuznecov/OOP_2381/Flask.h /Users/ilakuznecov/OOP_2381/Item.h \
-  /Users/ilakuznecov/OOP_2381/TPScroll.h \
   /Users/ilakuznecov/OOP_2381/PowerPotion.h
