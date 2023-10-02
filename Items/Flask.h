@@ -7,7 +7,8 @@ class Player;
 class Flask : public Item
 {
 public:
-    Flask(std::string name = "Flask", int count = MIN_COUNT);
+    Flask(int count = MIN_COUNT);
     void use(Player& player);
+    void operator=(Flask other);
 };
 #endif

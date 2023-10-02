@@ -1,5 +1,6 @@
-CMakeFiles/game.out.dir/main.cpp.o: /Users/ilakuznecov/OOP_2381/main.cpp \
-  /Users/ilakuznecov/OOP_2381/Field/Field.h \
+CMakeFiles/game.out.dir/Field/Cell.cpp.o: \
+  /Users/ilakuznecov/OOP_2381/Field/Cell.cpp \
+  /Users/ilakuznecov/OOP_2381/Field/Cell.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -413,12 +414,4 @@ CMakeFiles/game.out.dir/main.cpp.o: /Users/ilakuznecov/OOP_2381/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/ilakuznecov/OOP_2381/Field/Cell.h \
-  /Users/ilakuznecov/OOP_2381/Player.h \
-  /Users/ilakuznecov/OOP_2381/Inventory.h \
-  /Users/ilakuznecov/OOP_2381/Items/Flask.h \
-  /Users/ilakuznecov/OOP_2381/Items/Item.h \
-  /Users/ilakuznecov/OOP_2381/Items/PowerPotion.h \
-  /Users/ilakuznecov/OOP_2381/MovementManager.h \
-  /Users/ilakuznecov/OOP_2381/Direction.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h

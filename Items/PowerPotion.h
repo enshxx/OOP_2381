@@ -7,7 +7,8 @@ class Player;
 class PowerPotion: public Item
 {
     public:
-        PowerPotion(std::string name = "PowerPotion", int count = MIN_COUNT);
+        PowerPotion(int count = MIN_COUNT);
         void use(Player& player);
+        void operator=(PowerPotion other);
 };
 #endif

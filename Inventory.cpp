@@ -5,6 +5,10 @@
 
 
 Inventory::Inventory(): flask (new Flask), powerPotion (new PowerPotion){};
+Inventory::~Inventory(){
+    delete flask;
+    delete powerPotion;
+}
 
 void Inventory::showInventory()
 {
@@ -13,6 +17,8 @@ void Inventory::showInventory()
                 << this->powerPotion->getCount() << " зелий силы\n";
 }
 
+PowerPotion& Inventory::getPowerPotion() { return *(this->powerPotion); }
+Flask& Inventory::getFlask() { return *(this->flask); }
 
-
+void Inventory::operator=(Inventory other) {}
 #endif

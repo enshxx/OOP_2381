@@ -1,18 +1,21 @@
 #include <iostream>
 #ifndef Inventory_h
 #define Inventory_h
-#include "Flask.h"
+#include "Items/Flask.h"
 #include "Player.h"
-#include "PowerPotion.h"
-
+#include "Items/PowerPotion.h"
 
 class Inventory
 {
-    
+private:
+    Flask* flask;
+    PowerPotion* powerPotion;
 public:
-    Flask* const flask;
-    PowerPotion*const  powerPotion;
     Inventory();
+    ~Inventory();
+    Flask& getFlask();
+    PowerPotion& getPowerPotion();
     void showInventory();
+    void operator=(Inventory other);
 };
 #endif

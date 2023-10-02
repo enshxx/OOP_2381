@@ -1,11 +1,12 @@
+#include "Field/Field.h"
 #include "Player.h"
-#include "MovementManager.h"
 #include "Inventory.h"
-
+#include "MovementManager.h"
 int main()
-{
+{  
+    Field field;
     Player player;                   // cоздание экземпляра класса Player
-    MovementManager manager(player); // создание экземпляра класса MovementManager
+    MovementManager manager(player,field); // создание экземпляра класса MovementManager
 
     // проверка ининциализации по умолчанию
     std::cout << "Здоровье игрока по умолчанию: " << player.getHealth() << std::endl;
@@ -19,7 +20,6 @@ int main()
     player.setHealth(player.getHealth() + 100);
     player.setPower(player.getPower() + 100);
     player.setScore(player.getScore() + 100);
-    manager.move(Direction::right);
 
     // вывод после изменения
     std::cout << "Здоровье игрока поcле изменений: " << player.getHealth() << std::endl;
@@ -30,21 +30,32 @@ int main()
     std::cout << std::endl;
 
     // инвентарь по умолчанию
+    player.getInventory().showInventory();
 
     // изменение количества предметов
-    player.inv->flask->setCount(player.inv->flask->getCount() + 1);
-    player.inv->powerPotion->setCount(player.inv->powerPotion->getCount() + 1);
+    player.getInventory().getFlask().setCount(player.getInventory().getFlask().getCount() + 1);
+    player.getInventory().getPowerPotion().setCount(player.getInventory().getFlask().getCount() + 1);
 
     // проверка количества предметов после изменения
-    player.inv->showInventory();
+    player.getInventory().getFlask().use(player);
+    player.getInventory().getPowerPotion().use(player);
 
-    // использование предметов
-    player.inv->flask->use(player);
-    player.inv->powerPotion->use(player);
-    // свиток телепортации пока в разработке
 
     // вывод измемененных параметров
     std::cout << "Здоровье игрока поcле использования предмета: " << player.getHealth() << std::endl;
     std::cout << "Cила игрока после использования предмета: " << player.getPower() << std::endl;
+
+    //Проверека движения
+    manager.move(Direction::right);
+    std::cout << manager.getCoordinates().first << " " << manager.getCoordinates().second << std::endl;
+    std::cout << std::endl;
+
+    //Проверка на присвоение
+    std::cout << (field.getCell(1,1).getCellPatency()) << std::endl;
+    Cell n = Cell(false);
+    field.getCell(1,1) = n;
+    std::cout << (field.getCell(1,1).getCellPatency()) << std::endl;
+    std::cout << std::endl;
     return 0;
+
 }

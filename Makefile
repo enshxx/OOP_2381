@@ -129,29 +129,53 @@ game.out/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/build
 .PHONY : game.out/fast
 
-Flask.o: Flask.cpp.o
-.PHONY : Flask.o
+Field/Cell.o: Field/Cell.cpp.o
+.PHONY : Field/Cell.o
 
 # target to build an object file
-Flask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Flask.cpp.o
-.PHONY : Flask.cpp.o
+Field/Cell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Cell.cpp.o
+.PHONY : Field/Cell.cpp.o
 
-Flask.i: Flask.cpp.i
-.PHONY : Flask.i
+Field/Cell.i: Field/Cell.cpp.i
+.PHONY : Field/Cell.i
 
 # target to preprocess a source file
-Flask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Flask.cpp.i
-.PHONY : Flask.cpp.i
+Field/Cell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Cell.cpp.i
+.PHONY : Field/Cell.cpp.i
 
-Flask.s: Flask.cpp.s
-.PHONY : Flask.s
+Field/Cell.s: Field/Cell.cpp.s
+.PHONY : Field/Cell.s
 
 # target to generate assembly for a file
-Flask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Flask.cpp.s
-.PHONY : Flask.cpp.s
+Field/Cell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Cell.cpp.s
+.PHONY : Field/Cell.cpp.s
+
+Field/Field.o: Field/Field.cpp.o
+.PHONY : Field/Field.o
+
+# target to build an object file
+Field/Field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.o
+.PHONY : Field/Field.cpp.o
+
+Field/Field.i: Field/Field.cpp.i
+.PHONY : Field/Field.i
+
+# target to preprocess a source file
+Field/Field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.i
+.PHONY : Field/Field.cpp.i
+
+Field/Field.s: Field/Field.cpp.s
+.PHONY : Field/Field.s
+
+# target to generate assembly for a file
+Field/Field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Field/Field.cpp.s
+.PHONY : Field/Field.cpp.s
 
 Inventory.o: Inventory.cpp.o
 .PHONY : Inventory.o
@@ -177,29 +201,77 @@ Inventory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Inventory.cpp.s
 .PHONY : Inventory.cpp.s
 
-Item.o: Item.cpp.o
-.PHONY : Item.o
+Items/Flask.o: Items/Flask.cpp.o
+.PHONY : Items/Flask.o
 
 # target to build an object file
-Item.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item.cpp.o
-.PHONY : Item.cpp.o
+Items/Flask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Flask.cpp.o
+.PHONY : Items/Flask.cpp.o
 
-Item.i: Item.cpp.i
-.PHONY : Item.i
+Items/Flask.i: Items/Flask.cpp.i
+.PHONY : Items/Flask.i
 
 # target to preprocess a source file
-Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item.cpp.i
-.PHONY : Item.cpp.i
+Items/Flask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Flask.cpp.i
+.PHONY : Items/Flask.cpp.i
 
-Item.s: Item.cpp.s
-.PHONY : Item.s
+Items/Flask.s: Items/Flask.cpp.s
+.PHONY : Items/Flask.s
 
 # target to generate assembly for a file
-Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Item.cpp.s
-.PHONY : Item.cpp.s
+Items/Flask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Flask.cpp.s
+.PHONY : Items/Flask.cpp.s
+
+Items/Item.o: Items/Item.cpp.o
+.PHONY : Items/Item.o
+
+# target to build an object file
+Items/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Item.cpp.o
+.PHONY : Items/Item.cpp.o
+
+Items/Item.i: Items/Item.cpp.i
+.PHONY : Items/Item.i
+
+# target to preprocess a source file
+Items/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Item.cpp.i
+.PHONY : Items/Item.cpp.i
+
+Items/Item.s: Items/Item.cpp.s
+.PHONY : Items/Item.s
+
+# target to generate assembly for a file
+Items/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/Item.cpp.s
+.PHONY : Items/Item.cpp.s
+
+Items/PowerPotion.o: Items/PowerPotion.cpp.o
+.PHONY : Items/PowerPotion.o
+
+# target to build an object file
+Items/PowerPotion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o
+.PHONY : Items/PowerPotion.cpp.o
+
+Items/PowerPotion.i: Items/PowerPotion.cpp.i
+.PHONY : Items/PowerPotion.i
+
+# target to preprocess a source file
+Items/PowerPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/PowerPotion.cpp.i
+.PHONY : Items/PowerPotion.cpp.i
+
+Items/PowerPotion.s: Items/PowerPotion.cpp.s
+.PHONY : Items/PowerPotion.s
+
+# target to generate assembly for a file
+Items/PowerPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Items/PowerPotion.cpp.s
+.PHONY : Items/PowerPotion.cpp.s
 
 MovementManager.o: MovementManager.cpp.o
 .PHONY : MovementManager.o
@@ -249,30 +321,6 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
-PowerPotion.o: PowerPotion.cpp.o
-.PHONY : PowerPotion.o
-
-# target to build an object file
-PowerPotion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/PowerPotion.cpp.o
-.PHONY : PowerPotion.cpp.o
-
-PowerPotion.i: PowerPotion.cpp.i
-.PHONY : PowerPotion.i
-
-# target to preprocess a source file
-PowerPotion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/PowerPotion.cpp.i
-.PHONY : PowerPotion.cpp.i
-
-PowerPotion.s: PowerPotion.cpp.s
-.PHONY : PowerPotion.s
-
-# target to generate assembly for a file
-PowerPotion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.out.dir/build.make CMakeFiles/game.out.dir/PowerPotion.cpp.s
-.PHONY : PowerPotion.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -306,24 +354,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game.out"
-	@echo "... Flask.o"
-	@echo "... Flask.i"
-	@echo "... Flask.s"
+	@echo "... Field/Cell.o"
+	@echo "... Field/Cell.i"
+	@echo "... Field/Cell.s"
+	@echo "... Field/Field.o"
+	@echo "... Field/Field.i"
+	@echo "... Field/Field.s"
 	@echo "... Inventory.o"
 	@echo "... Inventory.i"
 	@echo "... Inventory.s"
-	@echo "... Item.o"
-	@echo "... Item.i"
-	@echo "... Item.s"
+	@echo "... Items/Flask.o"
+	@echo "... Items/Flask.i"
+	@echo "... Items/Flask.s"
+	@echo "... Items/Item.o"
+	@echo "... Items/Item.i"
+	@echo "... Items/Item.s"
+	@echo "... Items/PowerPotion.o"
+	@echo "... Items/PowerPotion.i"
+	@echo "... Items/PowerPotion.s"
 	@echo "... MovementManager.o"
 	@echo "... MovementManager.i"
 	@echo "... MovementManager.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
-	@echo "... PowerPotion.o"
-	@echo "... PowerPotion.i"
-	@echo "... PowerPotion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,13 +1,12 @@
 #include "PowerPotion.h"
-#include "Player.h"
+#include "../Player.h"
 #ifndef PowerPotion_cpp
 #define PowerPotion_cpp
 
 
 
-PowerPotion::PowerPotion(std::string name, int count)
+PowerPotion::PowerPotion(int count)
 {
-    this->setName(name);
     this->setCount(count);
 }
 void PowerPotion::use(Player& player)
@@ -19,8 +18,8 @@ void PowerPotion::use(Player& player)
     }
     else
     {
-        std::cout << "You don't have PowerPotion" << std::endl;
+        throw std::invalid_argument("У вас нет этого предмета\n");
     }
 }
-
+void PowerPotion::operator=(PowerPotion other) {}
 #endif

@@ -4,13 +4,17 @@
 #ifndef Player_cpp
 #define Player_cpp
 
-Player::Player(int power, int score , int health):inv(new Inventory)
+Player::Player(int power, int score , int health): inv(new Inventory)
     {
         this->setHealth(health);
         this->setPower(power);
         this->setScore(score);
         this->dead = false;
     }
+Player::~Player()
+{
+    delete inv;
+}
 void Player::setHealth(int hp)
     {
         if (hp >= MIN_HEALTH && hp < MAX_HEALTH)
@@ -19,7 +23,6 @@ void Player::setHealth(int hp)
         }
         else if (hp < MIN_HEALTH)
         {
-            std::cout << "You died" << std::endl;
             this->dead = true;
         }
         else
@@ -33,5 +36,6 @@ bool Player::isDead() { return this->dead; }
 int Player::getHealth() { return this->health; }
 int Player::getScore() { return this->score; }
 int Player::getPower() { return this->power; }
-
+void Player::operator=(Player other){};
+Inventory& Player::getInventory() { return *(this->inv); }
 #endif

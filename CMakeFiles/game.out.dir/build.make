@@ -83,24 +83,52 @@ CMakeFiles/game.out.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/main.cpp -o CMakeFiles/game.out.dir/main.cpp.s
 
-CMakeFiles/game.out.dir/Flask.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Flask.cpp.o: Flask.cpp
-CMakeFiles/game.out.dir/Flask.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.out.dir/Flask.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Flask.cpp.o -MF CMakeFiles/game.out.dir/Flask.cpp.o.d -o CMakeFiles/game.out.dir/Flask.cpp.o -c /Users/ilakuznecov/OOP_2381/Flask.cpp
+CMakeFiles/game.out.dir/Field/Field.cpp.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Field/Field.cpp.o: Field/Field.cpp
+CMakeFiles/game.out.dir/Field/Field.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.out.dir/Field/Field.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Field.cpp.o -MF CMakeFiles/game.out.dir/Field/Field.cpp.o.d -o CMakeFiles/game.out.dir/Field/Field.cpp.o -c /Users/ilakuznecov/OOP_2381/Field/Field.cpp
 
-CMakeFiles/game.out.dir/Flask.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Flask.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Flask.cpp > CMakeFiles/game.out.dir/Flask.cpp.i
+CMakeFiles/game.out.dir/Field/Field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Field.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Field/Field.cpp > CMakeFiles/game.out.dir/Field/Field.cpp.i
 
-CMakeFiles/game.out.dir/Flask.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Flask.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Flask.cpp -o CMakeFiles/game.out.dir/Flask.cpp.s
+CMakeFiles/game.out.dir/Field/Field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Field.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Field/Field.cpp -o CMakeFiles/game.out.dir/Field/Field.cpp.s
+
+CMakeFiles/game.out.dir/Field/Cell.cpp.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Field/Cell.cpp.o: Field/Cell.cpp
+CMakeFiles/game.out.dir/Field/Cell.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.out.dir/Field/Cell.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Field/Cell.cpp.o -MF CMakeFiles/game.out.dir/Field/Cell.cpp.o.d -o CMakeFiles/game.out.dir/Field/Cell.cpp.o -c /Users/ilakuznecov/OOP_2381/Field/Cell.cpp
+
+CMakeFiles/game.out.dir/Field/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Field/Cell.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Field/Cell.cpp > CMakeFiles/game.out.dir/Field/Cell.cpp.i
+
+CMakeFiles/game.out.dir/Field/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Field/Cell.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Field/Cell.cpp -o CMakeFiles/game.out.dir/Field/Cell.cpp.s
+
+CMakeFiles/game.out.dir/Items/Flask.cpp.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Items/Flask.cpp.o: Items/Flask.cpp
+CMakeFiles/game.out.dir/Items/Flask.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.out.dir/Items/Flask.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Items/Flask.cpp.o -MF CMakeFiles/game.out.dir/Items/Flask.cpp.o.d -o CMakeFiles/game.out.dir/Items/Flask.cpp.o -c /Users/ilakuznecov/OOP_2381/Items/Flask.cpp
+
+CMakeFiles/game.out.dir/Items/Flask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Items/Flask.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Items/Flask.cpp > CMakeFiles/game.out.dir/Items/Flask.cpp.i
+
+CMakeFiles/game.out.dir/Items/Flask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Items/Flask.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Items/Flask.cpp -o CMakeFiles/game.out.dir/Items/Flask.cpp.s
 
 CMakeFiles/game.out.dir/Inventory.cpp.o: CMakeFiles/game.out.dir/flags.make
 CMakeFiles/game.out.dir/Inventory.cpp.o: Inventory.cpp
 CMakeFiles/game.out.dir/Inventory.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.out.dir/Inventory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.out.dir/Inventory.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Inventory.cpp.o -MF CMakeFiles/game.out.dir/Inventory.cpp.o.d -o CMakeFiles/game.out.dir/Inventory.cpp.o -c /Users/ilakuznecov/OOP_2381/Inventory.cpp
 
 CMakeFiles/game.out.dir/Inventory.cpp.i: cmake_force
@@ -111,24 +139,24 @@ CMakeFiles/game.out.dir/Inventory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Inventory.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Inventory.cpp -o CMakeFiles/game.out.dir/Inventory.cpp.s
 
-CMakeFiles/game.out.dir/Item.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/Item.cpp.o: Item.cpp
-CMakeFiles/game.out.dir/Item.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.out.dir/Item.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Item.cpp.o -MF CMakeFiles/game.out.dir/Item.cpp.o.d -o CMakeFiles/game.out.dir/Item.cpp.o -c /Users/ilakuznecov/OOP_2381/Item.cpp
+CMakeFiles/game.out.dir/Items/Item.cpp.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Items/Item.cpp.o: Items/Item.cpp
+CMakeFiles/game.out.dir/Items/Item.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.out.dir/Items/Item.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Items/Item.cpp.o -MF CMakeFiles/game.out.dir/Items/Item.cpp.o.d -o CMakeFiles/game.out.dir/Items/Item.cpp.o -c /Users/ilakuznecov/OOP_2381/Items/Item.cpp
 
-CMakeFiles/game.out.dir/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Item.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Item.cpp > CMakeFiles/game.out.dir/Item.cpp.i
+CMakeFiles/game.out.dir/Items/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Items/Item.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Items/Item.cpp > CMakeFiles/game.out.dir/Items/Item.cpp.i
 
-CMakeFiles/game.out.dir/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Item.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Item.cpp -o CMakeFiles/game.out.dir/Item.cpp.s
+CMakeFiles/game.out.dir/Items/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Items/Item.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Items/Item.cpp -o CMakeFiles/game.out.dir/Items/Item.cpp.s
 
 CMakeFiles/game.out.dir/Player.cpp.o: CMakeFiles/game.out.dir/flags.make
 CMakeFiles/game.out.dir/Player.cpp.o: Player.cpp
 CMakeFiles/game.out.dir/Player.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.out.dir/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.out.dir/Player.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Player.cpp.o -MF CMakeFiles/game.out.dir/Player.cpp.o.d -o CMakeFiles/game.out.dir/Player.cpp.o -c /Users/ilakuznecov/OOP_2381/Player.cpp
 
 CMakeFiles/game.out.dir/Player.cpp.i: cmake_force
@@ -139,24 +167,24 @@ CMakeFiles/game.out.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Player.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Player.cpp -o CMakeFiles/game.out.dir/Player.cpp.s
 
-CMakeFiles/game.out.dir/PowerPotion.cpp.o: CMakeFiles/game.out.dir/flags.make
-CMakeFiles/game.out.dir/PowerPotion.cpp.o: PowerPotion.cpp
-CMakeFiles/game.out.dir/PowerPotion.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.out.dir/PowerPotion.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/PowerPotion.cpp.o -MF CMakeFiles/game.out.dir/PowerPotion.cpp.o.d -o CMakeFiles/game.out.dir/PowerPotion.cpp.o -c /Users/ilakuznecov/OOP_2381/PowerPotion.cpp
+CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o: CMakeFiles/game.out.dir/flags.make
+CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o: Items/PowerPotion.cpp
+CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o -MF CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o.d -o CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o -c /Users/ilakuznecov/OOP_2381/Items/PowerPotion.cpp
 
-CMakeFiles/game.out.dir/PowerPotion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/PowerPotion.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/PowerPotion.cpp > CMakeFiles/game.out.dir/PowerPotion.cpp.i
+CMakeFiles/game.out.dir/Items/PowerPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.out.dir/Items/PowerPotion.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilakuznecov/OOP_2381/Items/PowerPotion.cpp > CMakeFiles/game.out.dir/Items/PowerPotion.cpp.i
 
-CMakeFiles/game.out.dir/PowerPotion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/PowerPotion.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/PowerPotion.cpp -o CMakeFiles/game.out.dir/PowerPotion.cpp.s
+CMakeFiles/game.out.dir/Items/PowerPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.out.dir/Items/PowerPotion.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilakuznecov/OOP_2381/Items/PowerPotion.cpp -o CMakeFiles/game.out.dir/Items/PowerPotion.cpp.s
 
 CMakeFiles/game.out.dir/MovementManager.cpp.o: CMakeFiles/game.out.dir/flags.make
 CMakeFiles/game.out.dir/MovementManager.cpp.o: MovementManager.cpp
 CMakeFiles/game.out.dir/MovementManager.cpp.o: CMakeFiles/game.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.out.dir/MovementManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.out.dir/MovementManager.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.out.dir/MovementManager.cpp.o -MF CMakeFiles/game.out.dir/MovementManager.cpp.o.d -o CMakeFiles/game.out.dir/MovementManager.cpp.o -c /Users/ilakuznecov/OOP_2381/MovementManager.cpp
 
 CMakeFiles/game.out.dir/MovementManager.cpp.i: cmake_force
@@ -170,26 +198,30 @@ CMakeFiles/game.out.dir/MovementManager.cpp.s: cmake_force
 # Object files for target game.out
 game_out_OBJECTS = \
 "CMakeFiles/game.out.dir/main.cpp.o" \
-"CMakeFiles/game.out.dir/Flask.cpp.o" \
+"CMakeFiles/game.out.dir/Field/Field.cpp.o" \
+"CMakeFiles/game.out.dir/Field/Cell.cpp.o" \
+"CMakeFiles/game.out.dir/Items/Flask.cpp.o" \
 "CMakeFiles/game.out.dir/Inventory.cpp.o" \
-"CMakeFiles/game.out.dir/Item.cpp.o" \
+"CMakeFiles/game.out.dir/Items/Item.cpp.o" \
 "CMakeFiles/game.out.dir/Player.cpp.o" \
-"CMakeFiles/game.out.dir/PowerPotion.cpp.o" \
+"CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o" \
 "CMakeFiles/game.out.dir/MovementManager.cpp.o"
 
 # External object files for target game.out
 game_out_EXTERNAL_OBJECTS =
 
 game.out: CMakeFiles/game.out.dir/main.cpp.o
-game.out: CMakeFiles/game.out.dir/Flask.cpp.o
+game.out: CMakeFiles/game.out.dir/Field/Field.cpp.o
+game.out: CMakeFiles/game.out.dir/Field/Cell.cpp.o
+game.out: CMakeFiles/game.out.dir/Items/Flask.cpp.o
 game.out: CMakeFiles/game.out.dir/Inventory.cpp.o
-game.out: CMakeFiles/game.out.dir/Item.cpp.o
+game.out: CMakeFiles/game.out.dir/Items/Item.cpp.o
 game.out: CMakeFiles/game.out.dir/Player.cpp.o
-game.out: CMakeFiles/game.out.dir/PowerPotion.cpp.o
+game.out: CMakeFiles/game.out.dir/Items/PowerPotion.cpp.o
 game.out: CMakeFiles/game.out.dir/MovementManager.cpp.o
 game.out: CMakeFiles/game.out.dir/build.make
 game.out: CMakeFiles/game.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable game.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ilakuznecov/OOP_2381/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable game.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

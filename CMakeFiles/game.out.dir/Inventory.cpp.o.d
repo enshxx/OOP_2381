@@ -415,6 +415,7 @@ CMakeFiles/game.out.dir/Inventory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/ilakuznecov/OOP_2381/Inventory.h \
-  /Users/ilakuznecov/OOP_2381/Flask.h /Users/ilakuznecov/OOP_2381/Item.h \
+  /Users/ilakuznecov/OOP_2381/Items/Flask.h \
+  /Users/ilakuznecov/OOP_2381/Items/Item.h \
   /Users/ilakuznecov/OOP_2381/Player.h \
-  /Users/ilakuznecov/OOP_2381/PowerPotion.h
+  /Users/ilakuznecov/OOP_2381/Items/PowerPotion.h

@@ -5,7 +5,6 @@
 #define MIN_SCORE 0
 #define MIN_POWER 10
 #define MAX_HEALTH 1000
-
 class Inventory;
 
 class Player
@@ -13,10 +12,12 @@ class Player
 private:
     int power, score, health;
     bool dead;
+    Inventory* inv;
 
 public:
-    Inventory* const inv;
     Player(int power = MIN_POWER, int score = MIN_SCORE, int health = MIN_HEALTH);
+    ~Player();
+    Inventory& getInventory();
     void setHealth(int hp);
     void setScore(int newScore);
     void setPower(int newPower);
@@ -24,5 +25,6 @@ public:
     int getHealth();
     int getScore();
     int getPower();
+    void operator=(Player other);
 };
 #endif
