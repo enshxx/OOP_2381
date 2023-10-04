@@ -13,6 +13,6 @@ private:
 public:
     virtual void use(Player& player) = 0;
     void setCount(int count = MIN_COUNT);
-    int getCount();
+    int getCount() const;
 };
 #endif

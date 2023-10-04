@@ -22,9 +22,9 @@ public:
     void setScore(int newScore);
     void setPower(int newPower);
     bool isDead();
-    int getHealth();
-    int getScore();
-    int getPower();
+    int getHealth() const;
+    int getScore() const;
+    int getPower() const;
     void operator=(Player other);
 };
 #endif

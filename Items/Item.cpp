@@ -7,7 +7,7 @@
 
 
 void Item::setCount(int count) { this->count = count; }
-int Item::getCount() { return this->count; }
+int Item::getCount() const { return this->count; }
 
 
 #endif

@@ -15,7 +15,7 @@ class MovementManager{
         MovementManager(Player& playerLink, Field& field, int x = 0, int y = 0);
         void move(Direction direction);
         void operator=(MovementManager other);
-        std::pair<int,int> getCoordinates();
+        std::pair<int,int> getCoordinates() const;
         
 };
 #endif

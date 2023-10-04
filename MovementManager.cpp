@@ -8,7 +8,7 @@ MovementManager::MovementManager(Player &playerLink, Field &field, int x, int y)
     this->setCoordinates(x, y);
 };
 
-std::pair<int, int> MovementManager::getCoordinates() { return this->coordinates; }
+std::pair<int, int> MovementManager::getCoordinates() const{ return this->coordinates; }
 void MovementManager::setCoordinates(int x, int y)
 {
     this->coordinates = std::make_pair(x, y);

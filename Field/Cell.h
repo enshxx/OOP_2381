@@ -9,7 +9,7 @@ class Cell
     public:
         Cell (bool cellPatency = true, std::pair<int,int> coordinates = std::make_pair(-1,-1));
         void setCellPatency (bool cellPatency);
-        bool getCellPatency ();
+        bool getCellPatency () const;
         void operator=(Cell other);
 };  
 

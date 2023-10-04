@@ -12,10 +12,12 @@ class Field{
         Cell** field;
     public:
         Field(int width = DEFAULT_WIDTH, int height = DEFAULT_HEIGHT);
+        Field (Field& other);
+        Field (Field&& other);
         ~Field();
         Cell& getCell(int x, int y);
-        int getWidth();
-        int getHeight();
+        int getWidth() const;
+        int getHeight() const;
         void operator=(Field other);
 };
 #endif

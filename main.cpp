@@ -55,7 +55,12 @@ int main()
     Cell n = Cell(false);
     field.getCell(1,1) = n;
     std::cout << (field.getCell(1,1).getCellPatency()) << std::endl;
-    std::cout << std::endl;
+
+    //проверка конструктора копирования
+    Field new_field = Field(field);
+    
+    Field new_field1(std::move(field));
+    
     return 0;
 
 }

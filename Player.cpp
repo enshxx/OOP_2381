@@ -33,9 +33,9 @@ void Player::setHealth(int hp)
 void Player::setScore(int newScore) { this->score = newScore * (newScore > 0); }
 void Player::setPower(int newPower) { this->power = newPower * (newPower > 0); }
 bool Player::isDead() { return this->dead; }
-int Player::getHealth() { return this->health; }
-int Player::getScore() { return this->score; }
-int Player::getPower() { return this->power; }
+int Player::getHealth() const{ return this->health; }
+int Player::getScore() const{ return this->score; }
+int Player::getPower() const{ return this->power; }
 void Player::operator=(Player other){};
 Inventory& Player::getInventory() { return *(this->inv); }
 #endif
