@@ -1,8 +1,18 @@
 #include "Field.h"
 #ifdef Field_h
 #define Field_h
-Field::Field(int width, int height)
-{
+Field::Field(int width, int height, std::pair<int,int> start, std::pair<int,int> finish)
+{   
+    if (checkCoords(start, finish, width) && checkCoords(start, finish, height))
+    {
+        this->start = start;
+        this->finish = finish;
+    }
+    else
+    {
+        this->start = std::make_pair(0,0);
+        this->finish = std::make_pair(DEFAULT_WIDTH - 1, DEFAULT_HEIGHT - 1);
+    }
     this->width = width;
     this->height = height;
     Cell **array;
@@ -54,9 +64,8 @@ Field::~Field()
     }
     delete [] field;
     }
-    
 }
-
+int Field::checkCoords(std::pair<int,int> start, std::pair<int,int> finish, int value) const {return start.first >= 0 && start.first < value && start.second >= 0 && start.second < value; }
 Cell &Field::getCell(int x, int y) { return this->field[x][y]; }
 int Field::getWidth() const { return this->width; }
 int Field::getHeight() const { return this->height; }

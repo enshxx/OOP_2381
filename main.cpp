@@ -20,6 +20,7 @@ int main()
     player.setHealth(player.getHealth() + 100);
     player.setPower(player.getPower() + 100);
     player.setScore(player.getScore() + 100);
+    manager.move(Direction::right);
 
     // вывод после изменения
     std::cout << "Здоровье игрока поcле изменений: " << player.getHealth() << std::endl;
@@ -61,6 +62,7 @@ int main()
     
     Field new_field1(std::move(field));
     
+
     return 0;
 
 }
