@@ -32,7 +32,7 @@ void Player::setHealth(int hp)
     }
 void Player::setScore(int newScore) { this->score = newScore * (newScore > 0); }
 void Player::setPower(int newPower) { this->power = newPower * (newPower > 0); }
-bool Player::isDead() { return this->dead; }
+bool Player::isDead() const{ return this->dead; }
 int Player::getHealth() const{ return this->health; }
 int Player::getScore() const{ return this->score; }
 int Player::getPower() const{ return this->power; }

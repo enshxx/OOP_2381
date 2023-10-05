@@ -9,5 +9,15 @@ Cell::Cell(bool cellPatency, std::pair<int, int> coordinates)
 }
 void Cell::setCellPatency(bool cellPatency) { this->cellPatency = cellPatency; }
 bool Cell::getCellPatency() const { return this->cellPatency; }
-void Cell::operator=(Cell other) {}
+Cell& Cell::operator=(Cell other) 
+{
+    if (this == &other || this->coordinates.first >= 0)
+    {
+        return *this;
+    }
+    this->coordinates = other.coordinates;
+    this->cellPatency = other.cellPatency;
+    return *this;
+
+}
 #endif

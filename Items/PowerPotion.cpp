@@ -21,5 +21,4 @@ void PowerPotion::use(Player& player)
         throw std::invalid_argument("У вас нет этого предмета\n");
     }
 }
-void PowerPotion::operator=(PowerPotion other) {}
 #endif

@@ -15,7 +15,7 @@ public:
     ~Inventory();
     Flask& getFlask();
     PowerPotion& getPowerPotion();
+    Inventory& operator=(Inventory other) = delete;
     void showInventory();
-    void operator=(Inventory other);
 };
 #endif

@@ -1,7 +1,9 @@
 #ifndef Field_h
 #define Field_h
-#define DEFAULT_WIDTH 100
-#define DEFAULT_HEIGHT 100
+#define DEFAULT_WIDTH 30
+#define DEFAULT_HEIGHT 30
+#define MAX_WIDTH 200
+#define MAX_HEIGHT 200
 #include <iostream>
 #include "Cell.h"
 
@@ -19,6 +21,6 @@ class Field{
         int checkCoords(std::pair<int,int> start,std::pair<int,int> finish ,int value) const;
         int getWidth() const;
         int getHeight() const;
-        void operator=(Field other);
+        void showField() const;
 };
 #endif

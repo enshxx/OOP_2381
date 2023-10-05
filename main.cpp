@@ -4,7 +4,7 @@
 #include "MovementManager.h"
 int main()
 {  
-    Field field;
+    Field field = Field(-11,112312312);
     Player player;                   // cоздание экземпляра класса Player
     MovementManager manager(player,field); // создание экземпляра класса MovementManager
 
@@ -62,7 +62,7 @@ int main()
     
     Field new_field1(std::move(field));
     
-
+    new_field1.showField();
     return 0;
 
 }

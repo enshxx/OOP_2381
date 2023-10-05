@@ -20,5 +20,4 @@ void Inventory::showInventory()
 PowerPotion& Inventory::getPowerPotion() { return *(this->powerPotion); }
 Flask& Inventory::getFlask() { return *(this->flask); }
 
-void Inventory::operator=(Inventory other) {}
 #endif

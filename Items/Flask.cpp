@@ -19,5 +19,5 @@ void Flask::use(Player &player)
         throw std::invalid_argument("У вас нет этого предмета\n");
     }
 }
-void Flask::operator=(Flask other) {}
+
 #endif

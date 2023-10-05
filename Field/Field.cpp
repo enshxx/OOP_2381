@@ -13,14 +13,14 @@ Field::Field(int width, int height, std::pair<int,int> start, std::pair<int,int>
         this->start = std::make_pair(0,0);
         this->finish = std::make_pair(DEFAULT_WIDTH - 1, DEFAULT_HEIGHT - 1);
     }
-    this->width = width;
-    this->height = height;
+    this->width = (width - DEFAULT_WIDTH) * (width > 1 && width <= MAX_WIDTH) + DEFAULT_WIDTH;
+    this->height = (height - DEFAULT_HEIGHT) * (height > 1 && height <= MAX_HEIGHT) + DEFAULT_HEIGHT;
     Cell **array;
-    array = new Cell *[height];
-    for (int i = 0; i < height; i++)
+    array = new Cell *[this->height];
+    for (int i = 0; i < this->height; i++)
     {
-        array[i] = new Cell[width];
-        for (int j = 0; j < width; j++)
+        array[i] = new Cell[this->width];
+        for (int j = 0; j < this->width; j++)
         {
             array[i][j] = Cell(true, std::make_pair(i, j));
         }
@@ -69,5 +69,15 @@ int Field::checkCoords(std::pair<int,int> start, std::pair<int,int> finish, int 
 Cell &Field::getCell(int x, int y) { return this->field[x][y]; }
 int Field::getWidth() const { return this->width; }
 int Field::getHeight() const { return this->height; }
-void Field::operator=(Field other){};
+void Field::showField() const
+{
+    for (int i = 0; i < this->getHeight(); i++)
+    {
+        for (int j = 0; j < this->getWidth(); j++)
+        {
+            std::cout << this->field[i][j].coordinates.first << this->field[i][j].coordinates.second << " ";
+        }
+        std::cout << "\n";
+    }
+};
 #endif

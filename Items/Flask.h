@@ -9,6 +9,6 @@ class Flask : public Item
 public:
     Flask(int count = MIN_COUNT);
     void use(Player& player);
-    void operator=(Flask other);
+    Flask& operator=(Flask other) = delete;
 };
 #endif

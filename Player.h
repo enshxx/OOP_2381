@@ -21,7 +21,7 @@ public:
     void setHealth(int hp);
     void setScore(int newScore);
     void setPower(int newPower);
-    bool isDead();
+    bool isDead() const;
     int getHealth() const;
     int getScore() const;
     int getPower() const;

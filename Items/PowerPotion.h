@@ -9,6 +9,6 @@ class PowerPotion: public Item
     public:
         PowerPotion(int count = MIN_COUNT);
         void use(Player& player);
-        void operator=(PowerPotion other);
+        PowerPotion& operator=(PowerPotion other) = delete;
 };
 #endif
