@@ -1,18 +1,27 @@
-#include <iostream>
 #ifndef Cell_h
 #define Cell_h
+#include <iostream>
+#include "../Events/Event.h"
 class Field;
+class Event;
+class FieldCreator;
 class Cell
 {
+    
     private:
+        friend FieldCreator;
         bool cellPatency;
-        std::pair<int,int> coordinates;
+        Event* eve;
     public:
-        Cell (bool cellPatency = true, std::pair<int,int> coordinates = std::make_pair(-1,-1));
+        Cell (Event* event = nullptr, bool cellPatency = true);
+        Cell (const Cell& other);
+        Cell (Cell&& other);
+        ~Cell();
         void setCellPatency (bool cellPatency);
         bool getCellPatency () const;
-        Cell& operator=(Cell other);
-        friend Field;
+        Event* getEve();
+        Cell& operator=(const Cell& other);
+        Cell& operator=(Cell &&other);
 };  
 
 #endif

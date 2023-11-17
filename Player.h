@@ -5,6 +5,7 @@
 #define MIN_SCORE 0
 #define MIN_POWER 10
 #define MAX_HEALTH 1000
+#define DEFAUlT_HEALTH 200
 class Inventory;
 
 class Player
@@ -15,7 +16,7 @@ private:
     Inventory* inv;
 
 public:
-    Player(int power = MIN_POWER, int score = MIN_SCORE, int health = MIN_HEALTH);
+    Player(int power = MIN_POWER, int score = MIN_SCORE, int health = DEFAUlT_HEALTH);
     ~Player();
     Inventory& getInventory();
     void setHealth(int hp);

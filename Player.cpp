@@ -21,7 +21,7 @@ void Player::setHealth(int hp)
         {
             this->health = hp;
         }
-        else if (hp < MIN_HEALTH)
+        else if (hp <= MIN_HEALTH)
         {
             this->dead = true;
         }

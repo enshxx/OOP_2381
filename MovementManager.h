@@ -16,6 +16,11 @@ class MovementManager{
         void move(Direction direction);
         void operator=(MovementManager other);
         std::pair<int,int> getCoordinates() const;
+        void teleport(std::pair<int,int> coordinate);
+        Player& getPlayer();
+        Field& getField();
+        void FieldView();
         
 };
+
 #endif

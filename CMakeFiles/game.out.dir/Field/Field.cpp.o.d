@@ -415,4 +415,6 @@ CMakeFiles/game.out.dir/Field/Field.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/ilakuznecov/OOP_2381/Field/Cell.h
+  /Users/ilakuznecov/OOP_2381/Field/Cell.h \
+  /Users/ilakuznecov/OOP_2381/Field/../Events/Event.h \
+  /Users/ilakuznecov/OOP_2381/Field/../Events/DefaultEvent.h

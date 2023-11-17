@@ -21,6 +21,9 @@ class Field{
         int checkCoords(std::pair<int,int> start,std::pair<int,int> finish ,int value) const;
         int getWidth() const;
         int getHeight() const;
-        void showField() const;
-};
+        Field& operator=(const Field& other);
+        Field& operator=(Field &&other);
+        std::pair <int,int>  getFinish();
+
+};      
 #endif
